@@ -50,7 +50,8 @@ body {
 }
 
 .tittle{
-  margin: 0px 20%;
+  position:relative;
+  left:20%;
   font-size:30px;
   color:rgb(0, 140, 255)
 }
@@ -61,4 +62,19 @@ body {
 
 .text img{
   width:500px;
+}
+
+.text b {
+  position:relative;
+  color:blue;
+  left:20%;
+}
+
+.author{
+  position:relative;
+ bottom:0px;
+ left:50%;
+  color:aqua;
+  font-size:30px;
+  display:inline-block;
 }
